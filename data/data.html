@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="data">
+    <header>
+        <h1>Carbon Emission Data Collection</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Enter Your Factory Data</h2>
+            <form id="dataForm">
+                <label for="factoryName">Factory Name:</label>
+                <input type="text" id="factoryName" name="factoryName" required>
+                <label for="emissions">Carbon Emissions (in tons per year):</label>
+                <input type="number" id="emissions" name="emissions" required>
+                <button type="submit">Submit Data</button>
+            </form>
+        </section>
+        <footer>
+            <a href="solution.html">Go to Solutions</a>
+        </footer>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
