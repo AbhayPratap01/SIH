@@ -51,7 +51,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff0000;
+    background-color: #5cff0b;
 }
 
 /* Hero Section */
@@ -144,4 +144,8 @@ footer {
 .city-card:focus,
 .city-card:hover {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.city-card{
+    border: 3px solid rgb(255, 145, 0);
 }
